@@ -7,7 +7,7 @@ function About() {
       <div className="row my-5">
         <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12 px-3">
           <h1 className="my-3">What we are here for</h1>
-          <p className="text-muted">Our group of SEO Services make answers for our customers, yet get our customers front and center the market by giving designated traffic to your necessities. We like to be on top by bringing our customers the consideration that they want.</p>
+          <p className="text-muted">Akshiptika Infotech is an ensured organization giving start to finish IT administrations including web composition and improvement, web based business shopping basket, SEO and computerized promoting, ADA web architecture, site security arrangement, IT consultancy, custom investigation, versatile application, CRM, ERP and custom programming advancement since 19 years. We convey our administrations to new companies, SMEs, corporates, government and offices.</p>
         </div>
         <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12">
           <img src={about} alt={about} className="img-fluid" />
