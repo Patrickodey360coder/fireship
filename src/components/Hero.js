@@ -36,6 +36,16 @@ const WelcomeText = styled.div`
     }
     height: 50%;
   }
+
+  @media only screen and (max-width: 480px) {
+    h1 {
+      font-size: 1.8em;
+      font-weight: 900;
+      padding: 1em 0;
+    }
+    align-items: flex-start;
+    /* justify-content: center; */
+  }
   color: #fff;
   height: 100%;
   width: 100%;
