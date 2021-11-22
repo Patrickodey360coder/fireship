@@ -72,8 +72,8 @@ function Hero() {
       <HeroWrapper className="container" id="hero">
         <WelcomeText>
           <div>
-            <h1 className="mb-lg-5 pe-lg-5 py-3">You run your business. We’ll handle your finances.</h1>
-            <p className="mb-lg-5 pe-lg-5">From bookkeeping to tax filing, Bench is the all-in-one financial toolkit your business can count on.</p>
+            <h1 className="mb-lg-5 pe-lg-5 py-1">Bettter digital experience with Akshiptika Infotech</h1>
+            <p className="mb-lg-5 ">For next generation of big businesses.</p>
             <button className="btn btn-pink btn-lg">Start a Free Trial</button>
           </div>
         </WelcomeText>

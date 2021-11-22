@@ -9,7 +9,7 @@ function Navs() {
        <Navbar collapseOnSelect expand="lg" bg="light" variant="light">
         <Container>
         {/* <Navbar.Brand href="/" className="orange"><strong>Akshiptika</strong></Navbar.Brand> */}
-        <Navbar.Brand href="/" className="orange"><img src={logo} alt={logo} class="img-fluid logo" /></Navbar.Brand>
+        <Navbar.Brand href="/" className="orange"><img src={logo} alt={logo} class="img-fluid logo" /> <span>Akshiptika</span></Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ms-auto">
@@ -21,6 +21,9 @@ function Navs() {
             </Nav.Item>
             <Nav.Item>
               <Nav.Link eventKey="3" href="#about">About</Nav.Link>
+            </Nav.Item>
+            <Nav.Item>
+              <Nav.Link eventKey="3" href="#team">Team</Nav.Link>
             </Nav.Item>
             <Nav.Item>
               <Nav.Link eventKey="4" href="#contact">Contact</Nav.Link>
