@@ -24,7 +24,7 @@ export default function Footer() {
       <div class="container">
         <div class="row">
           <div class="col-lg-3 col-md-6 footer-contact">
-            <h3>Ninestars</h3>
+            <h4>Akshiptika</h4>
             <p>
               SCO 145 <br/>
               Deva Ji VIP Plazar Zirakpur<br/>

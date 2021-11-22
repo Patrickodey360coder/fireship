@@ -9,12 +9,12 @@ function Team() {
       <div className="row text-center">
         <div className="col-12 col-sm-12 col-md-4 col-lg-4 mx-auto">
           <img src={team_1} alt={team_1} className="img-fluid team-img mb-2" />
-          <h4>Patrick odey</h4>
+          <h5>Patrick odey</h5>
           <p>CEO</p>
         </div>
         <div className="col-12 col-sm-12 col-md-4 col-lg-4 mx-auto">
           <img src={team_2} alt={team_2} className="img-fluid team-img mb-2" />
-          <h4>Patrick odey</h4>
+          <h5>Patrick odey</h5>
           <p>CEO</p>
         </div>
       </div>

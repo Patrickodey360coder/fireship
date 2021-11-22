@@ -24,6 +24,10 @@ body {
   object-fit: cover;
 }
 
+h1, h4, h5 {
+  font-weight: 900;
+}
+
 .team-img img {
   object-fit: cover;
   /* width: 100%; */
