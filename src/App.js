@@ -1,12 +1,14 @@
 import React from "react";
 import Nav from './components/Navbar';
-import {HashRouter as Router, Route, Switch} from 'react-router-dom';
+// import {HashRouter as Router, Route, Switch} from 'react-router-dom';
 import Globalstyle from "./Globalstyle";
 import Hero from './components/Hero';
-import About from './pages/About';
-import Contact from './pages/Contact';
-import NoMatch from "./components/NoMatch";
+import Goal from './pages/Goal';
+// import Contact from './pages/Contact';
+// import NoMatch from "./components/NoMatch";
 import Footer from "./components/Footer";
+import Services from './pages/Services';
+import About from './pages/About';
 
 
 function App() {
@@ -14,22 +16,18 @@ function App() {
     <>
       <Globalstyle>
         <Nav/>
-        <Router>
+        <Hero/>
+        <Goal/>
+        <Services />
+        <About />
+        {/* <Contact /> */}
+        {/* <Router>
           <Switch>
-            <Route exact path="/">
-              <Hero/>
-            </Route>
-            <Route exact path="/about">
-              <About/>
-            </Route>
-            <Route exact path="/contact">
-              <Contact/>
-            </Route>
             <Route>
               <NoMatch/>
             </Route>
           </Switch>
-        </Router>
+        </Router> */}
         <Footer />
       </Globalstyle>
     </>

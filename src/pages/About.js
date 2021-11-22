@@ -1,21 +1,48 @@
 import React from 'react'
-import friedrice from '../images/friedrice.jpg';
+import '../icofont/icofont.min.css'
 
 function About() {
   return (
-    <div className="container my-5 contact">
-      <div className="row my-5">
-        <div className="col-md-6 my-5 px-3">
-          <h1 className="p5 orange">About Us</h1>
-          <p className="my-5 text-muted">At Tonia's Kitchen, we cater for your stomach needs. On this platform, you can search for different delicacies of your choice. You can also see the price based on the quantity you want. Reach out to us on the contact page if you have any further information.</p>
-
-          <p className="text-muted">
-            This web app was built using React (react-hooks, react-router, styled-components). It is mobile responsive and fast.
-          </p>
+    <div className="py-5 text-white" id="about">
+      <div className="container">
+      <div className="row">
+        <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+          <div className="mb-1">About Us</div>
+          <h2 className="mb-3">Akshiptika</h2>
+          <div>
+            <p>As a company we believe in providing the best quality of service to our clients.</p>
+            <p>And we are able to achieve that within our core values.</p>
+          </div>
         </div>
-        <div className="col-md-6">
-          <img className="custom-img-about" src={friedrice} alt={friedrice}/>
+        <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+          <div className="row">
+            <div className="col-6 my-3 mt-md-0">
+              <div className="value">
+                <h5><i class="icon icofont-cube"></i>Simplicity</h5>
+                <div>We believe that the simplest solution to a problem is always best.</div>
+              </div>
+            </div>
+            <div className="col-6 my-3 mt-md-0">
+            <div className="value">
+                <h5> <i class="icon icofont-badge"></i> Excellence</h5>
+                <div>We achieve excellence through discipline and the collaboration.</div>
+              </div>
+            </div>
+            <div className="col-6 my-3 mt-md-0">
+            <div className="value">
+                <h5><i class="icon icofont-shield"></i> Trust</h5>
+                <div>We build a trust in our relationship with you and products that you can rely on.</div>
+              </div>
+            </div>
+            <div className="col-6 my-3 mt-md-0">
+            <div className="value">
+                <h5><i class="icon icofont-space-shuttle"></i> Performance</h5>
+                <div>Truely performant solutions are designed by geniuses and artisans.</div>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
       </div>
     </div>
   )
