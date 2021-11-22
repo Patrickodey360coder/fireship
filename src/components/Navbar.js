@@ -23,13 +23,13 @@ function Navs() {
               <Nav.Link eventKey="3" href="#about">About</Nav.Link>
             </Nav.Item>
             <Nav.Item>
-              <Nav.Link eventKey="3" href="#team">Team</Nav.Link>
+              <Nav.Link eventKey="4" href="#team">Team</Nav.Link>
             </Nav.Item>
             <Nav.Item>
-              <Nav.Link eventKey="4" href="#contact">Contact</Nav.Link>
+              <Nav.Link eventKey="5" href="#contact">Contact</Nav.Link>
             </Nav.Item>
             <Nav.Item>
-              <Nav.Link eventKey="5" href="#">Blog</Nav.Link>
+              <Nav.Link eventKey="6" href="#">Blog</Nav.Link>
             </Nav.Item>
           </Nav>
         </Navbar.Collapse>

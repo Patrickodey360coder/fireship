@@ -13,27 +13,27 @@ function Team() {
         <div className="col-12 col-sm-12 col-md-6 col-lg-4 mb-2">
           <img src={munis} alt={munis} className="img-fluid team-img mb-2" />
           <h5>Munish Rana</h5>
-          <p className="text-muted font-italic">Chief Executive Officer</p>
+          <p className="text-muted fst-italic">Chief Executive Officer</p>
         </div>
         <div className="col-12 col-sm-12 col-md-6 col-lg-4 mb-2">
           <img src={olang} alt={olang} className="img-fluid team-img mb-2" />
           <h5>Olang A.O. Daniel</h5>
-          <p className="text-muted font-italic">Full Stack Engineer</p>
+          <p className="text-muted fst-italic">Full Stack Engineer</p>
         </div>
         <div className="col-12 col-sm-12 col-md-6 col-lg-4 mb-2">
           <img src={patrick} alt={patrick} className="img-fluid team-img mb-2" />
           <h5>Patrick Odey</h5>
-          <p className="text-muted font-italic">Frontend Engineer</p>
+          <p className="text-muted fst-italic">Frontend Engineer</p>
         </div>
         <div className="col-12 col-sm-12 col-md-6 col-lg-4 mb-2">
           <img src={ankush} alt={ankush} className="img-fluid team-img mb-2" />
           <h5>Ankush Bhatia</h5>
-          <p className="text-muted font-italic">Social Media Expert</p>
+          <p className="text-muted fst-italic">Social Media Expert</p>
         </div>
         <div className="col-12 col-sm-12 col-md-6 col-lg-4 mb-2">
           <img src={andor} alt={andor} className="img-fluid team-img mb-2" />
           <h5>Andor E. Ofre</h5>
-          <p className="text-muted font-italic">Backend Engineer</p>
+          <p className="text-muted fst-italic">Backend Engineer</p>
         </div>
       </div>
     </div>
