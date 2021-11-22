@@ -4,6 +4,11 @@ body {
   font-family: 'Roboto', sans-serif!important;
 }
 
+.logo {
+  height: 35px;
+  width: 100%;
+}
+
 .img {
   float: left;
   width:  100%;
