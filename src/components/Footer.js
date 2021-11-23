@@ -76,11 +76,10 @@ export default function Footer() {
             <h4>Our Social Networks</h4>
             <p>Follow us on all our social media platforms to stay updated.</p>
             <div class="social-links mt-3">
-              <a href="https://twitter.com/AkshiptikaI" target="_blank" class="twitter"><i class="icofont-twitter"></i></a>
-              <a href="https://www.facebook.com/akshiptikainfotech" target="_blank" class="facebook"><i class="icofont-facebook"></i></a>
-              <a href="https://www.instagram.com/akshiptikainfotech/" target="_blank" class="instagram"><i class="icofont-instagram"></i></a>
-              {/* <a href="https://in.pinterest.com/munish_mr2002/_created/" target="_blank" class="google"><i class="icofont-pintrest"></i></a> */}
-              <a href="https://www.linkedin.com/company/77111635/admin/recommend/" target="_blank" class="linkedin"><i class="icofont-linkedin"></i></a>
+              <a href="https://twitter.com/AkshiptikaI" rel="noreferrer" target="_blank" class="twitter"><i class="icofont-twitter"></i></a>
+              <a href="https://www.facebook.com/akshiptikainfotech" rel="noreferrer" target="_blank" class="facebook"><i class="icofont-facebook"></i></a>
+              <a href="https://www.instagram.com/akshiptikainfotech/" rel="noreferrer" target="_blank" class="instagram"><i class="icofont-instagram"></i></a>
+              <a href="https://www.linkedin.com/company/77111635/admin/recommend/" rel="noreferrer" target="_blank" class="linkedin"><i class="icofont-linkedin"></i></a>
             </div>
           </div>
 
