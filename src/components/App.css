@@ -237,3 +237,16 @@ h1, h4, h5 {
     padding: 3px 0;
   }
 }
+
+@media (max-width: 480px) {
+  #footer .copyright, #footer .credits {
+    float: none;
+    -moz-text-align-last: center;
+    text-align-last: center;
+    padding: 3px 0;
+  }
+
+  .logo {
+    height: 20px;
+  }
+}

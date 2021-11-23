@@ -40,12 +40,12 @@ const WelcomeText = styled.div`
   @media only screen and (max-width: 480px) {
     h1 {
       font-size: 1.8em;
-      font-weight: 900;
+      font-weight: 600;
       padding: 1em 0;
     }
     align-items: flex-start;
-    /* justify-content: center; */
   }
+  
   color: #fff;
   height: 100%;
   width: 100%;
@@ -61,7 +61,7 @@ const WelcomeImage = styled.div`
   align-items: center;
   justify-content: center;
   @media only screen and (max-width: 760px) {
-    height: 50%;
+    height: 30%;
     width: 50%;
   }
 `
