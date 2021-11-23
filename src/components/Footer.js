@@ -1,7 +1,18 @@
-import React from 'react'
-import '../components/App.css'
+import React from 'react';
+import { useForm } from 'react-hook-form';
+import '../components/App.css';
 
 export default function Footer() {
+  const {register, handleSubmit, reset, formState: { errors }} = useForm({
+    defaultValues: {email: ''}
+  });
+
+  const onSubmit = (data) => {
+    console.log(data);
+    reset({});
+  }
+
+
   return (
     <div id="contact">
       <footer id="footer">
@@ -9,12 +20,17 @@ export default function Footer() {
           <div class="container">
             <div class="row justify-content-center">
               <div class="col-lg-6">
-                <h4>Join Our Newsletter</h4>
-                <p>Sign up today for free and be the first to get notified on new updates.</p>
-                <form action="" method="post">
-                  <input type="email" name="email"/>
+                <h4 className="text-center">Join Our Newsletter</h4>
+                <p className="text-center">Sign up today for free and be the first to get notified on new updates.</p>
+                <form onSubmit={handleSubmit(onSubmit)} noValidate>
+                  <input type="email" {...register('email', { required: 'email is required...', pattern: {
+                    value: /^(([^<>()\\[\]\\.,;:\s@"]+(\.[^<>()\\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/,
+                    message: 'Please enter a valid email...'
+                  } })}/>
                   <input type="submit" value="Subscribe"/>
                 </form>
+                  {errors.email && <div className="row"><small className="px-4 mt-1 text-danger">{errors.email.message}</small></div>}
+
               </div>
             </div>
           </div>

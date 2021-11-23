@@ -94,7 +94,7 @@ h1, h4, h5 {
 #footer .footer-newsletter {
   padding: 50px 0;
   background: #FDF6F6;
-  text-align: center;
+  /* text-align: center; */
   font-size: 15px;
 }
 #footer .footer-newsletter h4 {
