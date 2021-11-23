@@ -18,7 +18,7 @@ function About() {
           <div className="row">
             <div className="col-6 my-3 mt-md-0">
               <div className="value">
-                <h5><i class="icon icofont-cube"></i>Simplicity</h5>
+                <h5><i class="icon icofont-cube me-1"></i>Simplicity</h5>
                 <div>We believe that the simplest solution to a problem is always best.</div>
               </div>
             </div>
