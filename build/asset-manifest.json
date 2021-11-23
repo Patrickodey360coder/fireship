@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/fireship/static/css/main.8b0e8d9a.chunk.css",
+    "main.js": "/fireship/static/js/main.92b17292.chunk.js",
+    "main.js.map": "/fireship/static/js/main.92b17292.chunk.js.map",
+    "runtime-main.js": "/fireship/static/js/runtime-main.82a15db2.js",
+    "runtime-main.js.map": "/fireship/static/js/runtime-main.82a15db2.js.map",
+    "static/js/2.1c94ab28.chunk.js": "/fireship/static/js/2.1c94ab28.chunk.js",
+    "static/js/2.1c94ab28.chunk.js.map": "/fireship/static/js/2.1c94ab28.chunk.js.map",
+    "index.html": "/fireship/index.html",
+    "static/css/main.8b0e8d9a.chunk.css.map": "/fireship/static/css/main.8b0e8d9a.chunk.css.map",
+    "static/js/2.1c94ab28.chunk.js.LICENSE.txt": "/fireship/static/js/2.1c94ab28.chunk.js.LICENSE.txt",
+    "static/media/about.dd1a52c3.jpg": "/fireship/static/media/about.dd1a52c3.jpg",
+    "static/media/andor.c7c3fe92.jpg": "/fireship/static/media/andor.c7c3fe92.jpg",
+    "static/media/ankush.24775b12.jpeg": "/fireship/static/media/ankush.24775b12.jpeg",
+    "static/media/bg3.d85f74d6.svg": "/fireship/static/media/bg3.d85f74d6.svg",
+    "static/media/contact.d13e1ff7.svg": "/fireship/static/media/contact.d13e1ff7.svg",
+    "static/media/copywriting.68cc138a.svg": "/fireship/static/media/copywriting.68cc138a.svg",
+    "static/media/design.76ad396c.svg": "/fireship/static/media/design.76ad396c.svg",
+    "static/media/icofont.min.css": "/fireship/static/media/icofont.dad3accb.woff",
+    "static/media/logo.01715aff.svg": "/fireship/static/media/logo.01715aff.svg",
+    "static/media/munis.2b5588ce.jpg": "/fireship/static/media/munis.2b5588ce.jpg",
+    "static/media/olang.918a83da.jpg": "/fireship/static/media/olang.918a83da.jpg",
+    "static/media/patrick.2bec196a.jpeg": "/fireship/static/media/patrick.2bec196a.jpeg",
+    "static/media/seo.36eeff56.svg": "/fireship/static/media/seo.36eeff56.svg",
+    "static/media/software.63dab5e2.svg": "/fireship/static/media/software.63dab5e2.svg",
+    "static/media/support.fa279546.svg": "/fireship/static/media/support.fa279546.svg",
+    "static/media/website.77701f52.svg": "/fireship/static/media/website.77701f52.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.82a15db2.js",
+    "static/js/2.1c94ab28.chunk.js",
+    "static/css/main.8b0e8d9a.chunk.css",
+    "static/js/main.92b17292.chunk.js"
+  ]
+}
