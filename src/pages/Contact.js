@@ -24,18 +24,18 @@ function Contact() {
               <div className="col-10 col-sm-8 col-md-10 col-md-10 mx-auto">
               <form onSubmit={handleSubmit(onSubmit)} noValidate>
                 <div className="mb-3">
-                  <input className="form-control form-control-lg" type="text" placeholder="name..." aria-label=".form-control-lg example" {...register("name", {required: 'Please enter you name.'})}  />
+                  <input className="form-control form-control-lg" type="text" placeholder="name..." aria-label=".form-control-lg example" {...register("name", {required: 'Please enter you name...'})}  />
                   {errors.name && <p className="text-danger"> {errors.name.message}</p>}
                 </div>
                 <div className="mb-3">
-                  <input type="email" class="form-control form-control-lg" id="exampleFormControlInput1" placeholder="email" {...register('email', {required: 'Please enter you email.', pattern: {
+                  <input type="email" class="form-control form-control-lg" id="exampleFormControlInput1" placeholder="email" {...register('email', {required: 'Please enter you email...', pattern: {
                     value: /^(([^<>()\\[\]\\.,;:\s@"]+(\.[^<>()\\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/,
-                    message: 'Please enter a valid Email'
+                    message: 'Please enter a valid Email...'
                   } })}/>
                   {errors.email && <p className="text-danger"> {errors.email.message}</p>}
                 </div>
                 <div class="mb-3">
-                  <textarea placeholder="message..." class="form-control form-control-lg" id="exampleFormControlTextarea1" rows="3" {...register('message', {required: 'Please enter message'})}></textarea>
+                  <textarea placeholder="message..." class="form-control form-control-lg" id="exampleFormControlTextarea1" rows="3" {...register('message', {required: 'Please enter message...'})}></textarea>
                   {errors.message && <p className="text-danger"> {errors.message.message}</p>}
                 </div>
 
