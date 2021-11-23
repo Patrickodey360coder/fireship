@@ -1,15 +1,16 @@
-import React, { useState, useEffect} from 'react'
-import img from '../images/contact.svg'
+import React from 'react';
+import {useForm} from 'react-hook-form';
+import img from '../images/contact.svg';
 
 function Contact() {
-  const [forms, setForms] = useState({});
-  const [form, setForm] = useState('');
+  const {register, handleSubmit} = useForm();
 
-  function handleSubmit(e){
-    e.preventDefault();
-    setForm(forms)
-    console.log(form)
+  const onSubmit = (data) => {
+    // e.preventDefault();
+    console.log(data);
   }
+
+
   return (
     <div id="contact">
       <div className="container py-5">
@@ -21,15 +22,15 @@ function Contact() {
             <h1 className="text-center my-3 mb-4">Contact Us</h1>
             <div className="row">
               <div className="col-10 col-sm-8 col-md-10 col-md-10 mx-auto">
-              <form>
+              <form onSubmit={handleSubmit(onSubmit)}>
                 <div className="mb-3">
-                  <input className="form-control form-control-lg" type="text" placeholder="name..." aria-label=".form-control-lg example" value={form}  />
+                  <input className="form-control form-control-lg" type="text" placeholder="name..." aria-label=".form-control-lg example" {...register('name', {required: 'Please enter you name.'})}  />
                 </div>
                 <div className="mb-3">
-                  <input type="email" class="form-control form-control-lg" id="exampleFormControlInput1" placeholder="email" value={form} onChange={handleSubmit}/>
+                  <input type="email" class="form-control form-control-lg" id="exampleFormControlInput1" placeholder="email" {...register('email', {required: 'Please enter you email.'})}/>
                 </div>
                 <div class="mb-3">
-                  <textarea placeholder="message..." class="form-control form-control-lg" id="exampleFormControlTextarea1" rows="3"></textarea>
+                  <textarea placeholder="message..." class="form-control form-control-lg" id="exampleFormControlTextarea1" rows="3" {...register('message', {required: 'Please enter message'})}></textarea>
                 </div>
 
                 <div className="mb-3 d-grid">
