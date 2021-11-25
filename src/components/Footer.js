@@ -42,9 +42,9 @@ export default function Footer() {
           <div class="col-lg-3 col-md-6 footer-contact">
             <h4>Akshiptika</h4>
             <p>
-              SCO 145 <br/>
-              Deva Ji VIP Plazar Zirakpur<br/>
-              Mohali india <br/><br/>
+              Vill Sapralu Tip N P.O Surani Tehsil<br/>
+              Khundian Distt Kangra Himachal<br/>
+              Pradesh India <br/><br/>
               <strong>Phone:</strong> +9 180 9152 6192<br/>
               <strong>Email:</strong> info@akshiptikainfotech.com <br/>
             </p>
